@@ -1,0 +1,206 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 1500px;
+    margin: 20px auto;
+    background-color: #fff;
+    border: 5px solid #4fb94d;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.calendar,
+.task-bar {
+    padding: 20px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.add-task {
+    /* display: flex; */
+    flex-direction: row;
+    /* Change from column to row */
+    /* align-items:  */
+    /* Align items vertically */
+}
+
+.add-task textarea,
+.add-task input[type="time"],
+.add-task button {
+    margin-right: 10px;
+    /* Add some spacing between the elements */
+    padding: 10px;
+    border: 5px solid #4fb94d;
+    /* border-radius: 25px; */
+    width: 200px;
+    /* box-shadow: 0 0 30px #f0f0f0c7; */
+}
+
+.add-task button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-task button:hover {
+    background-color: #45a049;
+}
+
+#calendar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.day {
+    width: calc(20% - 10px);
+    background-color: #91c59066;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.today {
+    background-color: #4CAF50;
+    color: #fff;
+    box-shadow: 0 0 30px #152d14;
+}
+
+.task-bar {
+    background-color: #333;
+    color: #fff;
+}
+
+.task-bar h2 {
+    color: #fff;
+}
+
+/* .task-bar #current-date {
+    margin-top: 10px;
+  } */
+
+.time-input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    /* Add some space between time inputs */
+}
+
+.time-input p {
+    margin: 0;
+    /* Remove default paragraph margin */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#submitButton {
+    background-color: #4fb94d;
+    border: none;
+    color: white;
+    padding: 5px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 5px solid #4fb94d;
+}
+
+#checkInBtn {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 5px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 2px;
+    border: 5px solid #4fb94d;
+}
+
+#checkOutBtn {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 5px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 2px;
+    border: 5px solid #4fb94d;
+}
+
+.button {
+    text-align: center;
+    margin-top: 0;
+}
+
+
+
+/* .App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  } */
